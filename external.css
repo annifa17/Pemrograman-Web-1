@@ -1,0 +1,48 @@
+body {
+    background-color: #FFF4DE;
+    font-family: 'Times New Roman', Times, serif;
+}
+body > p:first-of-type {
+    text-align: center;
+    font-size: 30px;
+}
+body > p:nth-of-type(2) {
+    text-align: center;
+}
+table {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #AEC4D4;
+    border-spacing: 3px;
+    background-color: #FFF4DE;
+}
+th,
+td {
+    border: 1px solid #AEC4D4;
+    padding: 1px;
+}
+thead tr:first-child th {
+    background-color: #AEC4D4;
+}
+thead tr:nth-child(2) th:nth-child(1) {
+    background-color: #C4A4DA;
+}
+thead tr:nth-child(2) th:nth-child(2) {
+    background-color: #F2A67B;
+}
+thead tr:nth-child(2) th:nth-child(3) {
+    background-color: #B2BD7E;
+}
+td img {
+    width: 130px;
+    height: 175px;
+}
+td video {
+    width: 130px;
+    height: 150px;
+}
+td a {
+    text-decoration: none;
+}
+
